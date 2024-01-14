@@ -153,7 +153,7 @@ if __name__ == "__main__":
     episodes=200
     printEveryNth=1
     do_plot_rewards=True
-    refresh_rate = 100
+    refresh_rate = 10
 
     experiments = []
     env1 = Maze(wall_shape, pits, MAZE_H=result.shape[0], MAZE_W=result.shape[1], UNIT=10)
